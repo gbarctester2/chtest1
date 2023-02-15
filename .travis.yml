@@ -4,7 +4,7 @@ language: python
 addons:
   sbom:
     on:
-      branch: sbom_one_fix
+      branch: test1
       pr: true
       condition: $OS = linux
     run_phase: before_script
@@ -12,6 +12,4 @@ addons:
     output_dir: 'python'
   mariadb: '10.0'
 script:
-  - python hello_world.py
-  - cd python
-  - pip install -r requirements.txt
+  - echo test
