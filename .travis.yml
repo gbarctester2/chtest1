@@ -2,4 +2,4 @@ os: linux
 dist: focal
 language: cpp
 
-script: exit -1
+script: bvcbcv
