@@ -1,6 +1,5 @@
 os: linux
 dist: focal
 language: cpp
-addons:
-    chrome: stable
-script: echo test
+
+script: exit -1
