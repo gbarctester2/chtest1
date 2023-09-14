@@ -2,5 +2,5 @@ os: linux
 dist: focal
 language: cpp
 vm:
-  size: large
-script: lspci && sleep 60 && echo ok
+  size: gpu-medium
+script: lspci && sleep 60 && echo ook
