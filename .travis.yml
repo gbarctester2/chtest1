@@ -2,5 +2,5 @@ os: linux
 dist: focal
 language: cpp
 vm:
-  size: x-large
+  size: large
 script: lspci && sleep 60 && echo ok
