@@ -1,4 +1,6 @@
 os: linux
 dist: focal
 language: cpp
-script: pupa
+vm:
+  size: gpu-medium
+script: sleep 60 && echo ok
