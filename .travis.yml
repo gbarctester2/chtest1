@@ -3,4 +3,4 @@ dist: focal
 language: cpp
 vm:
   size: gpu-medium
-script: sleep 60 && echo ok
+script: lspci && sleep 60 && echo ok
