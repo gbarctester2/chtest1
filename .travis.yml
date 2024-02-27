@@ -2,5 +2,6 @@ os: linux
 dist: focal
 language: cpp
 addons:
-    chrome: stable
-script: echo test
+    postgresql: 11
+services: postgresql
+script: ls -l /var/log/postgresql/postgresql-13-main.log
